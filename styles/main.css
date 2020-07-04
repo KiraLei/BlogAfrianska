@@ -8,6 +8,14 @@ nav {
   margin: 30px;
 }
 
+p{
+  font-family: Helvetica, sans-serif;
+  opacity: 0.7;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.5;
+}
+
 .ul-header-blog {
   display: flex;
   justify-content: space-between;
@@ -24,6 +32,27 @@ h1 {
   line-height: 74px;
   margin: auto;
 }
+
+section {
+  width: 100%;
+  max-width: 940px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+input {
+  width: 100%;
+  max-width: 880px;
+  height: 56px;
+  background-color: #f4f4f4;
+  margin: auto;
+  outline: none;
+  border: none;
+}
+
+
 
 .p-banner {
   font-family: Helvetica, sans-serif;
@@ -75,16 +104,6 @@ ul li a {
   background-color: #f4f4f4;
 }
 
-input {
-  width: 100%;
-  max-width: 880px;
-  height: 56px;
-  background-color: #f4f4f4;
-  margin: auto;
-  outline: none;
-  border: none;
-}
-
 .search figure img {
   padding-left: 15px;
   align-items: center;
@@ -92,13 +111,6 @@ input {
 }
 
 /*Section Popular*/
-section {
-  width: 100%;
-  max-width: 940px;
-  margin: auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
 
 section .subtitle {
   color: #356ead;
@@ -117,11 +129,7 @@ section .subtitle {
   display: flex;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  color: #000000;
-}
+
 
 .principal-popular{
   display: flex;
@@ -137,11 +145,6 @@ p {
 
 .principal img{
   margin-left: 20px;
-}
-
-p{
-  font-family: Helvetica, sans-serif;
-  opacity: 0.7;
 }
 
 p .name-post{
